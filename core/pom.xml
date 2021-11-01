@@ -35,6 +35,7 @@
         </dependency>
         <!-- End Testing -->
     </dependencies>
+         <build>
          <plugins>
          <plugin>
     <groupId>org.jacoco</groupId>
@@ -67,5 +68,6 @@
         </execution>
     </executions>
 </plugin>
-         
-</project>
+ </plugins>
+ </build>                 
+ </project>
